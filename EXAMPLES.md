@@ -355,3 +355,13 @@ For example:
 ./setcomputecontextattributes.py -n "Data Mining compute context" -a runAsUser -v sastest1
 ./setcomputecontextattributes.py -n "Data Mining compute context" -r runAsUser
 ```
+
+**deletescens.py**
+```bash
+# list (don't delete) the URLs for 20 scenarios 
+python3 deletescen.py -f d42e1859-1aed-471f-897f-6046e978ad31  -l -n 20
+
+# Delete 10000 scenarios for specified decision flow ID:
+python3 deletescen.py -f d42e1859-1aed-471f-897f-6046e978ad31  -n 10000
+
+```
